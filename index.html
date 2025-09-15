@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adit Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#6366f1", // Indigo-500
+              secondary: "#0f172a", // Slate-900
+            },
+            backgroundImage: {
+              "gradient-dark":
+                "linear-gradient(135deg, #0f0f0f, #1a1a1a, #000000)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-gradient-dark text-gray-200 font-sans">
+    <!-- HEADER / HERO -->
+    <header class="text-center py-12">
+      <h1 class="text-4xl md:text-5xl font-bold mb-2">👋 Hi, I'm Adit</h1>
+      <p class="text-lg text-gray-400">
+        💻 Informatics Engineering Student in ULBI
+      </p>
+      <p class="text-gray-400">
+        🚀 Passionate in Web Development & Backend | 🎮 Loves coding, coffee,
+        and gaming
+      </p>
+    </header>
+
+    <!-- GITHUB STATS -->
+    <section class="max-w-5xl mx-auto text-center p-6">
+      <h2 class="text-3xl font-semibold mb-6 text-primary">📊 GitHub Stats</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=rey-devp&show_icons=true&theme=tokyonight"
+          class="mx-auto rounded-lg shadow-lg"
+        />
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=rey-devp&layout=compact&theme=tokyonight"
+          class="mx-auto rounded-lg shadow-lg"
+        />
+      </div>
+    </section>
+
+    <!-- TOTAL COMMITS -->
+    <section class="max-w-3xl mx-auto text-center p-6">
+      <h2 class="text-3xl font-semibold mb-6 text-primary">
+        🔥 Total All Commits
+      </h2>
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=rey-devp&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight"
+        class="mx-auto rounded-lg shadow-lg"
+      />
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="max-w-5xl mx-auto text-center p-6">
+      <h2 class="text-3xl font-semibold mb-6 text-primary">🛠️ Tech Stack</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div
+          class="bg-secondary rounded-xl p-4 shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <h3 class="font-bold text-white">Frontend</h3>
+          <p class="text-gray-400">JavaScript | HTML | CSS | Tailwind CSS</p>
+        </div>
+        <div
+          class="bg-secondary rounded-xl p-4 shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <h3 class="font-bold text-white">Framework</h3>
+          <p class="text-gray-400">Fiber | React</p>
+        </div>
+        <div
+          class="bg-secondary rounded-xl p-4 shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <h3 class="font-bold text-white">Backend</h3>
+          <p class="text-gray-400">Golang</p>
+        </div>
+        <div
+          class="bg-secondary rounded-xl p-4 shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <h3 class="font-bold text-white">Database</h3>
+          <p class="text-gray-400">MongoDB | MySQL</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section class="max-w-4xl mx-auto text-center p-6">
+      <h2 class="text-3xl font-semibold mb-6 text-primary">
+        🤝 Connect With Me
+      </h2>
+      <div class="space-y-3">
+        <p>
+          📧
+          <a
+            href="mailto:rey.devp@gmail.com"
+            class="text-primary hover:underline"
+            >rey.devp@gmail.com</a
+          >
+        </p>
+        <p>
+          📷
+          <a
+            href="https://www.instagram.com/r.aditya0?igsh=MTNhYW1pcWgzeXJ4ZQ=="
+            class="text-primary hover:underline"
+            >@r.aditya0</a
+          >
+        </p>
+        <p>
+          🎮 Discord:
+          <span class="text-gray-400">rereiizzz | 584975016341274645</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-6 border-t border-gray-800 text-gray-500">
+      © 2025 Adit. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
